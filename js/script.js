@@ -36,7 +36,7 @@ if (computerMove == 'kamień' && playerMove == 'papier'){
     printMessage ('Ty wygrywasz!');
 } else if (computerMove == 'nożyce' && playerMove == 'kamień'){
     printMessage ('Ty wygrywasz!');
-} else if (computerMove == 'kamień' && playerMove == 'nieznany ruch'){
+} else if (playerMove == 'nieznany ruch'){
     printMessage ('Przegrałeś ;_;');
 } else if (computerMove == 'kamień' && playerMove == 'kamień'){
     printMessage ('remis x)');
